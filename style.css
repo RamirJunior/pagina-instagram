@@ -1,0 +1,161 @@
+/* reset pattern */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #E3BB9D;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.somecoffe-celular {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.somecoffe-celular img {
+    height: 50rem;
+}
+
+.somecoffe-log {
+    display: flex;
+    align-items: center;               
+    justify-content: space-around;      /* vertical agora */
+    flex-direction: column;
+    width: 50%;
+    height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:whitesmoke;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+ }
+
+ .instagram-logo {
+     height: 3rem;
+ }
+
+ .foto-profile {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+
+ .foto-profile img {
+     height: 6rem;
+     width: 6rem;
+ }
+
+ .link-login {
+     background-color: #A75E2F;
+     color: white;
+     padding: 8px;
+     border-radius: 4px;
+ }
+
+ .link-padrao {
+     color: #A75E2F;
+     margin-top: 1rem;
+ }
+
+ .not-account {
+     color: rgb(170, 170, 170);
+ }
+
+ .link-brown {
+     color:#A75E2F ;
+ }
+
+ .get-the-app {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     padding:1.3rem 0;
+ }
+
+ .download {
+     display: flex;
+     width: 100%;
+     justify-content: space-evenly;
+     align-items: center;
+     padding:1rem;
+ }
+
+ .app-download {
+     height: 3rem;
+     width: 10rem;
+     background-size: cover;
+ }
+
+ .app-download:nth-child(1) {
+     background-image: url(img/apple-button.png);
+ }
+
+ .app-download:nth-child(2) {
+     background-image: url(img/googleplay-button.png);
+ }
+
+ /* Media Queries */
+
+ @media screen and (max-width:1024px){
+     .wrapper {
+         width: 90%;
+     }
+ }
+
+ @media screen and (max-width:700px){
+    body {
+        background-color:#e2c0a6;
+    } 
+    
+    .wrapper {
+         width: 90%;
+     }
+
+     .somecoffe-celular {
+         display: none;
+     }
+
+     .somecoffe-log {
+         width: 100%;
+     }
+
+     .group {
+         border: 1px solid transparent;
+     }
+ }
