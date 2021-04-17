@@ -4,4 +4,6 @@ Este repositório faz parte de um projeto para a Digital Innovation One (DIO), l
 
 > _Importante: O projeto me permitia alterar o layout ou fazer uma criação própria tendo como base os mesmos temas abordados. Escolhi alterar o projeto para a criação de uma rede social fictícia criada por mim._
 
+O resultado do projeto pode ser visualizado em https://pagina-instagram.jayhdl.repl.co/
+
 Status do projeto: Concluído ✔️
